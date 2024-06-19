@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "pyboot"
+version = "0.1.0"
+description = "My template for creating quick python scripts."
+authors = ["Evan Nagle <evan.nagle@gmail.com>"]
+license = "GPL-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11, <=3.13"
+ruff = "^0.3.4"
+towncrier = "^23.11.0"
+
+[tool.poetry.dev-dependencies]
+black = ">=23.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+coverage = "^7.4.4"
+mkdocs = "^1.5.3"
+
+[tool.poetry.scripts]
+pyboot = "pyboot.app:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.towncrier]
+package = "pyboot"
+package_dir = "pyboot"
+directory = "changes"

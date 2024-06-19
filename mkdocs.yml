@@ -1,0 +1,8 @@
+site_name: pyboot
+site_url: https://pyboot.com
+nav:
+  - Home: index.md
+  - About: about.md
+  - Contact: contact.md
+  - Blog: blog/index.md
+theme: readthedocs
