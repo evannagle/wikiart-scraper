@@ -18,7 +18,7 @@ Features include:
 1. Create a copy of the template
 
 ```bash
-gh repo create happy-bog --template git@github.com:evannagle/pyboot.git  --private --clone
+gh repo create happy-bog --template git@github.com:evannagle/wikiart_scraper.git  --private --clone
 ```
 
 2. Install dependencies
@@ -54,10 +54,10 @@ Installing dependencies from lock file
 
 No dependencies to install or update
 
-Installing the current project: pyboot (0.1.0)
+Installing the current project: wikiart_scraper (0.1.0)
 
 🤖 Running the app
-poetry run pyboot
+poetry run wikiart_scraper
 42
 ```
 

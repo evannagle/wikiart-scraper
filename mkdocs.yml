@@ -1,5 +1,5 @@
-site_name: pyboot
-site_url: https://pyboot.com
+site_name: wikiart_scraper
+site_url: https://wikiart_scraper.com
 nav:
   - Home: index.md
   - About: about.md

@@ -1,4 +1,4 @@
-APP_NAME 					= 	pyboot
+APP_NAME 					= 	wikiart_scraper
 BIN_FOR_APP 				= 	$(APP_NAME)/app.py
 BIN_FOR_NODE				= 	node
 BIN_FOR_NPM					= 	npm

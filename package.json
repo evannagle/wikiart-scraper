@@ -1,6 +1,6 @@
 {
-  "name": "pyboot",
-  "pythonPackageName": "pyboot",
+  "name": "wikiart_scraper",
+  "pythonPackageName": "wikiart_scraper",
   "version": "1.0.0",
   "description": "",
   "main": "scripts/makefile-parser.js",

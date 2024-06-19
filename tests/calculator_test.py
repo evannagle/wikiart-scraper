@@ -1,4 +1,4 @@
-from pyboot.calculator import add
+from wikiart_scraper.calculator import add
 
 
 def test_add():
